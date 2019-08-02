@@ -16,7 +16,7 @@ int main()
 
     scanf("%s", c2);
     printf("%s\n",c2);
-    scanf("\n");
+    scanf("\n");        //添加此句后才能使后一句输入完整且包含空格
     scanf("%[^\n]",c3);
     printf("%s",c3);
     /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
