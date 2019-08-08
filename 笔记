@@ -1,0 +1,18 @@
+1.malloc与realloc
+    malloc函数用于动态申请内存，函数原型为：
+    void *malloc(size_t size);
+    使用示例：
+    int *p;
+    p = (int *)malloc(sizeof(int));   //此处为p指针申请了1个int类型的存储空间
+    或
+    p = (int *)malloc(sizeof(int) * 10);  //此处为p指针申请了10个int类型的存储空间
+    
+    当想为p指针所指向的内存空间增加或减少空间时，可使用realloc函数，其函数原型为：
+    void *realloc(void *ptr,size_t size);
+    使用示例：
+    p = (int *)realloc(p,20*sizeof(int));     //为p指针所指向的内存空间增加了10个
+
+
+2.
+    
+   
