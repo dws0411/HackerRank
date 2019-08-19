@@ -13,6 +13,12 @@
     p = (int *)realloc(p,20*sizeof(int));     //为p指针所指向的内存空间增加了10个
 
 
-2.
+2.scanf输入一整句话至数组（或指针）
+    char arr[255];
+    scanf("%s",arr);        //例如输入learning c is funny!
+    printf("%s",arr)        //结果为learning
+ -------------------------------------------------
+    scanf("%[^\n]",arr);    //“%[^\n]”理解为任何遇到换行符之前内容
+    printf("%s",arr);       //结果为learning C is funny!
     
-   
+    
