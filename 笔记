@@ -22,3 +22,15 @@
     printf("%s",arr);       //结果为learning C is funny!
     
     
+3.C字符总结
+int8_t:%c;  --char
+uint8_t:%c; --unsigned char
+ 
+int16_t: %d; --short
+uint16_t:%u; --unsigned short
+ 
+int32_t:%ld; --int
+uint32_t:%lu;--unsigned int
+ 
+int64_t：%lld(%l64d);    --long
+uint64_t:%llu(%l64u);    --unsigned long
